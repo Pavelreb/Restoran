@@ -1,0 +1,289 @@
+@media (max-width:960px){
+    .burger-btn {
+        display: block;
+    }
+    .close-nav {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .header-nav {
+        position: relative;
+        transform: translateX(-100%);
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 25px;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .open-header-nav{
+        transform: translateX(0);
+    }
+    .nav-list{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-basket {
+        position: absolute;
+        top: 15px;
+        right: 60px;
+        left: auto;
+        width: 30px;
+        height: 30px;
+        margin-left: 0;
+    }
+    .header-basket img {
+        width: 100%;
+        height: 100%;
+    }
+    .header-phone {
+        position: absolute;
+        top: 15px;
+        left: auto;
+        right: 105px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .header-phone::before {
+        display: none;
+    }
+    .header-phone-desc {
+        font-size: 12px;
+        text-align: center;
+    }
+    .header-button-order {
+        font-size: 12px;
+        margin-left: 0;
+        padding: 10px 18px;
+    }
+}
+@media (max-width:900px){
+    .our-story-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .offers-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:860px){
+    .order-wrapper-content-title{
+        font-size: 38px;
+    }
+    .order-wrapper-content-text{
+        font-size: 20px;
+    }
+}
+@media (max-width:780px){
+    .header-top-line{
+        padding-top: 20px;
+    }
+    .header-logo {
+        width: 45px;
+        height: 31px;
+    }
+    .header-content{
+        padding: 252px 0 304px;
+        margin: 0 auto;
+    }
+    .header-content-overhead{
+        font-size: 30px;
+    }
+    .header-content-title{
+        font-size: 50px;
+        text-align: center;
+    }
+    .header-content-text{
+        font-size: 15px;
+        margin-bottom: 45px;
+    }
+    .header-content-text::before{
+        display: none;
+    }
+    .header-content-text::after{
+        display: none;
+    }
+    .intro-wrapper{
+        gap: 15px;
+    }
+    .our-story{
+        padding: 0;
+        margin: -35px 0 50px;
+    }
+    .intro-item-text{
+        font-size: 22px;
+    }
+    .our-story-title{
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 48px;
+    }
+    .our-story-numbers-list{
+        flex-direction: column;
+        gap: 22px;
+    }
+    .our-story-wrapper{
+        gap: 45px;
+    }
+    .our-story-photos{
+        width: 290px;
+        height: 257px;
+    }
+    .rectangle-1{
+        width: 115px;
+        height: 85px;
+        top: 18px;
+        right: 23px;
+    }
+    .rectangle-2{
+        width: 138px;
+        height: 222px;
+        top: 0;
+        right: 50px;
+    }
+    .rectangle-3 {
+        width: 137px;
+        height: 155px;
+        top: 102px;
+        right: 0;
+    }
+    .rectangle-4 {
+        width: 126px;
+        height: 155px;
+        top: 33px;
+        left: 0;
+    }
+    .order-wrapper {
+        position: relative;
+        padding: 80px 0 105px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .order-wrapper {
+        position: relative;
+        padding: 20px 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .order-wrapper-button{
+        position: static;
+        transform: translateY(0);
+    }
+    .order-wrapper-content-title{
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .order-wrapper-content-text{
+        text-align: center;
+    }
+    .offers {
+        padding: 63px 0 63px;
+    }
+    .offers-title{
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 48px;
+        padding: 0 15px;
+    }
+    .container-offers {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .offers-main-img{
+        width: 100%;
+        height: 480px;
+    }
+    .offers-wrapper{
+        gap: 50px;
+    }
+    .offers-list{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .offers-item{
+        justify-content: center;
+        gap: 8px;
+    }
+    .offers-item-img{
+        width: 130px;
+        height: 113px;
+    }
+    .offers-item-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 150px;
+        margin-left: 0;
+        background-image: none;
+    }
+    .offers-item-desc p:first-child {
+        padding-right: 0px;
+        text-align: left;
+    }
+    .offers-item-desc p:last-child {
+        padding-left: 0px;
+    }
+    .offers-item-desc p {
+        font-size: 22px;
+    }
+    .menu-title{
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 48px;
+    }
+    .menu-wrapper {
+        padding: 60px 0;
+    }
+    .food-gallery {
+        padding: 60px 0;
+    }
+    .food-gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .food-gallery-title {
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 48px;
+    }
+    .cooks-title {
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 48px;
+    }
+    .our-story-contant {
+        width: 100%;
+    }
+}
+@media (max-width:440px){
+    .header-nav {
+        padding-top: 100px;
+    }
+    .one-section-grid {
+        grid-column: span 2;
+    }
+}
