@@ -1,21 +1,59 @@
-# Restoran
-## home page
+# Ресторан — лендинг ресторана
 
-[>>> Просмотр страницы Restoran <<<](https://pavelreb.github.io/Restoran/)
+Адаптивный лендинг ресторана: меню с ценами, бронирование столиков, история заведения, галерея блюд.
 
-![This is an image](https://github.com/Pavelreb/Restoran/blob/master/img/first-screen.jpg?raw=true)
+**Демо:** [pavelreb.github.io/Restoran](https://pavelreb.github.io/Restoran/)
 
-### Описание проекта:
-Обучающая верстка сайта с нуля с использованием графического редактора FIGMA, для написания кода использовался текстовый редактор Visual Studio Code макет свёрстан адаптивным и кросбраузерным.
+| Десктоп | Мобильная версия |
+|---|---|
+| ![Десктопная версия](screenshots/desktop.jpg) | ![Мобильная версия](screenshots/mobile.jpg) |
 
-### В вёрстке использовались технологии:
-- HyperText Markup Language HTML5
-- Cascading Style Sheets CSS3
-- CSS Flexible Box Layout (Flexbox)
-- CSS Grid Layout
-- JavaScript EC6
+## Возможности
 
-### Материалы проекта:
-Ссылка на макет Figma: [Перейти](https://www.figma.com/file/dVBa7wx6E0y2wiSODQdhut/Untitled)
+- Hero-блок с призывом и кнопкой просмотра меню
+- Секция блюд с ценами и кнопками заказа
+- Блок «Наша история» со счётчиками (клиенты, блюда, годы работы)
+- Галерея блюд
+- Адаптивная вёрстка: корректное отображение от мобильных устройств до широких мониторов
+- Мобильное меню с контактами
 
-Ссылка на серию видеоуроков на YouTube: [Смотреть](https://www.youtube.com/playlist?list=PLnMj__TQhCpEMq-_pJaBNhf4QHh12p05y)
+## Стек
+
+HTML5 · CSS3 (Flexbox, медиазапросы) · JavaScript
+
+## Запуск локально
+
+Проект не требует сборки — достаточно открыть `index.html` в браузере или запустить любой статический сервер:
+
+```bash
+npx serve .
+```
+
+---
+
+# Restoran — Restaurant Landing Page
+
+Responsive restaurant landing page: menu with prices, table reservation, restaurant story and a dish gallery.
+
+**Live demo:** [pavelreb.github.io/Restoran](https://pavelreb.github.io/Restoran/)
+
+## Features
+
+- Hero section with a call-to-action
+- Dishes section with prices and order buttons
+- "Our story" section with counters (customers, dishes, years)
+- Dish gallery
+- Responsive layout from mobile to widescreen
+- Mobile menu with contacts
+
+## Tech stack
+
+HTML5 · CSS3 (Flexbox, media queries) · JavaScript
+
+## Run locally
+
+No build step required — open `index.html` in a browser or use any static server:
+
+```bash
+npx serve .
+```
